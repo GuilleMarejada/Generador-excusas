@@ -1,6 +1,6 @@
 window.onload = function() {
   creadorDeExcusas();
-}
+};
 
 function creadorDeExcusas() {
   const who = ["Mi perro", "Mi abuela", "Su tortuga", "Mi pájaro"];
@@ -11,7 +11,7 @@ function creadorDeExcusas() {
     "justo a tiempo",
     "cuando terminé",
     "durante mi almuerzo",
-    "mientras programaba"
+    "mientras programaba",
   ];
   let randomWho = who[Math.floor(Math.random() * who.length)];
   let randomAction = action[Math.floor(Math.random() * action.length)];
