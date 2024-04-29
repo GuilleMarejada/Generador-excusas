@@ -18,7 +18,7 @@ function creadorDeExcusas() {
   let randomWhat = what[Math.floor(Math.random() * what.length)];
   let randomWhen = when[Math.floor(Math.random() * when.length)];
 
-  let phrase = randomWho.concat(
+  let excusa = randomWho.concat(
     " ",
     randomAction,
     " ",
@@ -27,5 +27,5 @@ function creadorDeExcusas() {
     randomWhen,
     "!!"
   );
-  document.querySelector("#excusa").textContent = phrase;
+  document.querySelector("#excusa").textContent = excusa;
 }
